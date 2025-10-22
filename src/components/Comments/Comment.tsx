@@ -17,7 +17,7 @@ export default function Comment({ avatar, name, date, text }: CommentProps) {
   if (!text) return null;
 
   return (
-    <div className="flex items-start gap-4 p-4 bg-white rounded-md shadow-sm border">
+    <div className="flex items-start gap-12 p-4 bg-white rounded-md shadow-sm border">
       {/* Avatar */}
       <div className="w-12 h-12 relative flex-shrink-0">
         <Image

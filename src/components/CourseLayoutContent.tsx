@@ -60,7 +60,7 @@ export default function CourseLayoutContent() {
 
       {/* Comments */}
       <div className="comments-container flex flex-col gap-4 w-full order-3 -mt-20 md:-mt-96">
-        <h2 className="text-2xl font-bold text-gray-900 my-24">Comments</h2>
+        <h2 className="text-2xl font-bold text-gray-900 my-5">Comments</h2>
         <CommentBox />
       </div>
     </div>
